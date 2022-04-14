@@ -1,0 +1,178 @@
+[
+  {
+    "movieId": 1,
+    "backgroundImage": "https://socialtelecast.com/wp-content/uploads/2021/12/Spider-Man-No-Way-Home-1024x576.jpg",
+    "title": "Spider-Man: No Way Home",
+    "released": "2021",
+    "metacritic_url": "metacritic_url",
+    "website": "https://www.marvel.com/movies/spider-man-no-way-home",
+    "description": "With Spider-Man's identity now revealed, Peter asks Doctor Strange for help. When a spell goes wrong, dangerous foes from other worlds start to appear, forcing Peter to discover what it truly means to be Spider-Man.",
+    "metacritic": "dfiawefkj",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "platforms": ["Netflix","Prime","Hulu"],
+    "ratings": [
+      "8.5"
+    ],
+    "screenshots": ["screenshots"],
+    "trailers": ["Trailers"],
+    "poster": "Poster"
+  },
+  {
+    "movieId": 2,
+    "backgroundImage": "https://www.axn-asia.com/sites/axn-asia.com/files/styles/image_1170x658/public/ct_series_f_primary_image/spiderman_homecoming_-_keyart.jpg?itok=-nQcKrew",
+    "title": "Spider-Man: Homecoming",
+    "released": "2017",
+    "metacritic_url": "metacritic_url",
+    "website": "https://www.marvel.com/movies/spider-homecoming",
+    "description": "Peter Parker balances his life as an ordinary high school student in Queens with his superhero alter-ego Spider-Man, and finds himself on the trail of a new menace prowling the skies of New York City.",
+    "metacritic": "dfiawefkj",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "platforms": ["Netflix","Prime"],
+    "ratings": [
+      "7.4"
+    ],
+    "screenshots": ["screenshots"],
+    "trailers": ["Trailers"],
+    "poster": "Poster"
+  },
+  {
+    "movieId": 3,
+    "backgroundImage": "https://images.squarespace-cdn.com/content/v1/58757367b3db2b3e1ec9477d/1563327668204-1PE8KYT204O9BYC99EV4/poster-spiderman-far-from-home-imdb_ratio-16x9.jpg?format=1500w",
+    "title": "Spider-Man: Far from Home",
+    "released": "2019",
+    "metacritic_url": "metacritic_url",
+    "website": "https://www.marvel.com/movies/spider-man-far-from-home",
+    "description": "Following the events of Avengers: Endgame (2019), Spider-Man must step up to take on new threats in a world that has changed forever.",
+    "metacritic": "dfiawefkj",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "platforms": ["Netflix","Hulu"],
+    "ratings": [
+      "7.4"
+    ],
+    "screenshots": ["screenshots"],
+    "trailers": ["Trailers"],
+    "poster": "Poster"
+  },
+  {
+    "movieId": 4,
+    "backgroundImage": "https://static1.colliderimages.com/wordpress/wp-content/uploads/2021/12/Spider-Man-2002-Cast-1.jpg?q=50&fit=contain&w=1500&h=&dpr=1.5",
+    "title": "Spider-Man",
+    "released": "2002",
+    "metacritic_url": "metacritic_url",
+    "website": "https://www.sonypictures.com/movies/spiderman",
+    "description": "When bitten by a genetically modified spider, a nerdy, shy, and awkward high school student gains spider-like abilities that he eventually must use to fight evil as a superhero after tragedy befalls his family.",
+    "metacritic": "dfiawefkj",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "platforms": ["Netflix","Prime"],
+    "ratings": [
+      "7.4"
+    ],
+    "screenshots": ["screenshots"],
+    "trailers": ["Trailers"],
+    "poster": "Poster"
+  },
+  {
+    "movieId": 5,
+    "backgroundImage": "https://assets-prd.ignimgs.com/2021/12/11/emospider-man-blogroll-01-1639181835757.jpg",
+    "title": "Spider-Man 3",
+    "released": "2007",
+    "metacritic_url": "metacritic_url",
+    "website": "https://www.sonypictures.com/movies/spiderman3",
+    "description": "A strange black entity from another world bonds with Peter Parker and causes inner turmoil as he contends with new villains, temptations, and revenge.",
+    "metacritic": "dfiawefkj",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "platforms": ["Netflix"],
+    "ratings": [
+      "6.3"
+    ],
+    "screenshots": ["screenshots"],
+    "trailers": ["Trailers"],
+    "poster": "Poster"
+  },
+  {
+    "movieId": 6,
+    "backgroundImage": "https://cdn.britannica.com/61/95461-050-1A7580C7/Movie-poster-Spider-Man-2.jpg",
+    "title": "Spider-Man 2",
+    "released": "2004",
+    "metacritic_url": "metacritic_url",
+    "website": "https://www.sonypictures.com/movies/spiderman2",
+    "description": "Peter Parker is beset with troubles in his failing personal life as he battles a brilliant scientist named Doctor Otto Octavius.",
+    "metacritic": "dfiawefkj",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "platforms": ["Netflix","Apple"],
+    "ratings": [
+      "7.4"
+    ],
+    "screenshots": ["screenshots"],
+    "trailers": ["Trailers"],
+    "poster": "Poster"
+  },
+  {
+    "movieId": 7,
+    "backgroundImage": "https://images.indianexpress.com/2022/01/andrew1200.jpg",
+    "title": "The Amazing Spider-Man 2",
+    "released": "2014",
+    "metacritic_url": "metacritic_url",
+    "website": "https://www.sonypictures.com/movies/theamazingspiderman2",
+    "description": "When New York is put under siege by Oscorp, it is up to Spider-Man to save the city he swore to protect as well as his loved ones.",
+    "metacritic": "dfiawefkj",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "platforms": ["Netflix","Hulu"],
+    "ratings": [
+      "6.6"
+    ],
+    "screenshots": ["screenshots"],
+    "trailers": ["Trailers"],
+    "poster": "Poster"
+  },
+  {
+    "movieId": 8,
+    "backgroundImage": "https://static1.colliderimages.com/wordpress/wp-content/uploads/2021/12/amazing-spider-man-cast.jpg",
+    "title": "The Amazing Spider-Man",
+    "released": "2012",
+    "metacritic_url": "metacritic_url",
+    "website": "https://www.sonypictures.com/movies/theamazingspiderman",
+    "description": "After Peter Parker is bitten by a genetically altered spider, he gains newfound, spider-like powers and ventures out to save the city from the machinations of a mysterious reptilian foe.",
+    "metacritic": "dfiawefkj",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "platforms": ["Netflix","Disney"],
+    "ratings": [
+      "7.0"
+    ],
+    "screenshots": ["screenshots"],
+    "trailers": ["Trailers"],
+    "poster": "Poster"
+  }
+]
