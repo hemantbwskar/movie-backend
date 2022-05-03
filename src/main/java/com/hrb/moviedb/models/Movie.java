@@ -1,4 +1,4 @@
-package com.hrb.moviedb.model;
+package com.hrb.moviedb.models;
 
 import java.util.ArrayList;
 

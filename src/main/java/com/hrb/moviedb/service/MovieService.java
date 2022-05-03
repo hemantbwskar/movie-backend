@@ -17,7 +17,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
-import com.hrb.moviedb.model.Movie;
+import com.hrb.moviedb.models.Movie;
 import com.hrb.moviedb.repository.MovieRepository;
 
 @Service

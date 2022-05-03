@@ -11,8 +11,9 @@ import org.springframework.context.annotation.Bean;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.hrb.moviedb.models.Movie;
 import com.hrb.moviedb.service.MovieService;
-import com.hrb.moviedb.model.Movie;
+import com.hrb.moviedb.service.MyUserDetailService;
 
 @SpringBootApplication
 public class MoviedbApplication {
@@ -33,6 +34,17 @@ public class MoviedbApplication {
 			}catch(IOException e){
 				System.out.println("unable to save Movies: "+e.getMessage());
 			}
+		};
+	}
+	
+	@Bean
+	CommandLineRunner runner1(MyUserDetailService myUserDetailService) {
+		return args->{
+				myUserDetailService.addAdministartor();
+				System.out.println("Admin added");
+				myUserDetailService.addHemant();
+				System.out.println("Hemant added");
+			
 		};
 	}
 
