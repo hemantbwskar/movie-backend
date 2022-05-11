@@ -24,6 +24,8 @@ public class MyUser {
 	private String password;
 
 	private String username;
+	
+	private String emailId;
 
 
 	private boolean accountNonExpired;
@@ -91,12 +93,21 @@ public class MyUser {
 	public void setEnabled(boolean enabled) {
 		this.enabled = enabled;
 	}
+	
+
+	public String getEmailId() {
+		return emailId;
+	}
+
+	public void setEmailId(String emailId) {
+		this.emailId = emailId;
+	}
 
 	@Override
 	public String toString() {
-		return "MyUser [userId=" + userId + ", password=" + password + ", username=" + username + ", accountNonExpired="
-				+ accountNonExpired + ", accountNonLocked=" + accountNonLocked + ", credentialsNonExpired="
-				+ credentialsNonExpired + ", enabled=" + enabled + "]";
+		return "MyUser [userId=" + userId + ", password=" + password + ", username=" + username + ", emailId=" + emailId
+				+ ", accountNonExpired=" + accountNonExpired + ", accountNonLocked=" + accountNonLocked
+				+ ", credentialsNonExpired=" + credentialsNonExpired + ", enabled=" + enabled + "]";
 	}
 	
 	

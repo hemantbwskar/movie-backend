@@ -41,6 +41,35 @@ public class MyUserDetailService implements UserDetailsService{
 //		System.out.println(currentUser.toString());
 		return new User(currentUser.getUsername(),currentUser.getPassword(),new ArrayList<>());
 	}
+	public MyUser saveUserDetails(MyUser myUser) {
+		// TODO Auto-generated method stub
+		return userRepository.save(myUser);
+	}
+	/**
+	 * @param username
+	 * @return
+	 */
+	public boolean existingUserName(String userName) {
+		
+		if(userRepository.getByUsername(userName)!=null) {
+		return true;
+	}else {
+		return false;
+	}
+	}
+	
+public boolean existingEmail(String email) {
+		
+		if(userRepository.getByEmailId(email)!=null) {
+		return true;
+	}else {
+		return false;
+	}
+	}
+public MyUser getUser(String username) {
+	// TODO Auto-generated method stub
+	return userRepository.getByUsername(username);
+}
 	
 	
 

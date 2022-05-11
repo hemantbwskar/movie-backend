@@ -45,7 +45,14 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
 		http.csrf().disable()
-		.authorizeRequests().antMatchers("/add-movie","/movie/*").authenticated()
+//		http.authorizeRequests().antMatchers("/h2-console/**","/authenticate/signup").permitAll()
+//        .and().csrf().ignoringAntMatchers("/h2-console/**")
+//        .and().csrf().ignoringAntMatchers("/authenticate/signup")
+//        .and().headers().frameOptions().sameOrigin();
+		
+		.authorizeRequests().antMatchers("/add-movie","/movie/**").authenticated()
+		.antMatchers("/h2-console")
+		.permitAll()
 		.anyRequest().permitAll()
 		.and().sessionManagement()
 		.sessionCreationPolicy(SessionCreationPolicy.STATELESS);
